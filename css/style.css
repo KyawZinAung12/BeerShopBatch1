@@ -1,0 +1,177 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+@font-face{
+	src:url(../Great_Vibes/GreatVibes-Regular.ttf);
+	font-family: Great_Vibes;
+}
+@font-face{
+	src:url(../Prata/Prata-Regular.ttf);
+	font-family: Prata;
+}
+.logo{
+	width: 110px;
+	height: 70px;
+	margin-left: 30px;
+	display: block;
+}
+.nav_background{
+	background-color: #16191c;
+}
+.brand_name{
+	margin-left: 50px;
+	color: white;
+	text-decoration: none;
+	font-family: Great_Vibes;
+}
+.nav_brand{
+	display: inline-block;
+}
+.nav_background ul{
+	float: right;
+}
+.nav_background ul li{
+	display: inline-block;
+	color: white;
+	margin-right: 50px;
+	margin-top: 30px;
+	text-transform: uppercase;
+}
+.nav_background ul li:hover{
+	color: yellow;
+	transform: translate(4px,-5px);
+	transition-duration: .3s;
+
+}
+
+.background{
+	background-image: url(../images/background.jpg);
+	height: 650px;
+	/*width: 100%;*/
+}
+
+.beerbar{
+	position: absolute;
+	color: gold;
+	left: 370px;
+	top: 300px;
+	font-size: 40px;
+	font-family: Great_Vibes;
+
+}
+.button{
+	background-color: black;
+	color: white;
+	padding: 10px;
+	border-radius: 10px;
+	margin-left: 80px;
+}
+
+/*body*/
+.grid_body{
+	display: grid;
+	grid-template-columns: 600px auto auto;
+	background-color: #212126;
+}
+.grid_body div{
+	border: 4px solid #212126;
+	background-color: black;
+	color: white;
+}
+div.grid_body .grid_one{
+	grid-row-start: 1;
+	grid-row-end: 3;
+	padding: 70px 50px 0 90px;
+}
+div.grid_body .grid_one h3,div.boxshow_img .boxshow_text h2,div.background_body .background_body_text h2,div.white_background .white_background_left h2,div.white_background .white_background_right h2{
+	color: gold;
+	font-family: Prata;
+}
+div.grid_body .grid_one button,div.background_body .background_body_text button,div.white_background .white_background_left button,div.white_background .white_background_right button{
+	background-color: gold;
+	width: 130px;
+	height: 40px;
+	border-radius: 10px;
+	margin-top: 10px;
+}
+
+div.grid_body .grid_other{
+	padding: 30px;
+	text-align: center;
+}
+div.grid_body .grid_other h3{
+	color: gold;
+}
+
+.boxshow_img img{
+	width: 500px;
+	height: 350px;
+	border: 1px solid black;
+	border-radius: 3px;
+	margin-top: 80px;
+	margin-left: 90px;
+	float: left;
+}
+.boxshow_text{
+	position: relative;
+	top: 130px;
+	left: 80px;
+	width: 80%;
+}
+
+.clear{
+	clear: both;
+}
+
+.background_body{
+	background-color: black;
+	color: white;
+	margin-top: 50px;
+}
+.background_body_text{
+	position: relative;
+	width: 35%;
+	float: left;
+	top: 90px;
+	left: 90px;
+}
+.beer_bottle{
+	margin-left: 150px;
+	margin-top: 40px;
+}
+
+div.white_background .white_background_left{
+	float: left;
+	width: 35%;
+	margin: 0px 90px 10px 180px;
+}
+div.white_background .white_background_right{
+	margin-top: 50px;
+	margin-right: 80px;
+}
+
+/*footer*/
+.footer{
+	background-color: black;
+	height: 90px;
+	margin-top: 80px;
+}
+
+footer.footer .footer_design{
+	color: white;
+	display: inline-block;
+	margin-top: 40px;
+	margin-left: 90px;
+}
+footer.footer .footer_design b{
+	color: gold;
+}
+
+footer.footer a{
+	/*display: inline-block;*/
+	float: right;
+	color: gold;
+	margin-right: 50px;
+	margin-top: 35px;
+}
